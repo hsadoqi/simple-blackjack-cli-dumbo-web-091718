@@ -28,7 +28,7 @@ def initial_round
   second_card = deal_card.to_i
   total = first_card + second_card
   display_card_total(total)
-  print display_card_total
+  total
 end
 
 def hit?
