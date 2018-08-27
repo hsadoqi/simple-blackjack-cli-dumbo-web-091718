@@ -35,9 +35,9 @@ def hit?
   prompt_user
   input = get_user_input
   return card_total
-  if input = 's'
+  if input == 's'
   display_card_total
-else
+elsif input == 'h'
   prompt_user
 end
 
