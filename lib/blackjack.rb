@@ -38,7 +38,7 @@ def hit?
 elsif input == 'h'
   total += deal_card
 else
-  
+  prompt_user
 end
 end
 
