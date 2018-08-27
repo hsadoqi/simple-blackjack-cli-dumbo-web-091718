@@ -40,6 +40,7 @@ def hit?
 elsif input == 'h'
   prompt_user
 end
+end
 
 #####################################################
 # get every test to pass before coding runner below #
