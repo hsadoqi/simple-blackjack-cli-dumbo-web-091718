@@ -1,5 +1,5 @@
 def welcome
-  print "Welcome!"
+  print "Welcome to the Blackjack Table"
 end
 
 def deal_card
@@ -25,7 +25,7 @@ end
 
 def initial_round
   2.times do
-    deal_card
+    return deal_card
   end
   display_card_total
 end
